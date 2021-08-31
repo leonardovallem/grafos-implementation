@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/leomv/Desktop/PUC/4º Período/Grafos/implementation/ndnp/Graph.h
+string
+/mnt/c/Users/leomv/Desktop/PUC/4º Período/Grafos/implementation/ndnp/string
+VerticesList.h
+/mnt/c/Users/leomv/Desktop/PUC/4º Período/Grafos/implementation/ndnp/VerticesList.h
+Relation.h
+/mnt/c/Users/leomv/Desktop/PUC/4º Período/Grafos/implementation/ndnp/Relation.h
+
+/mnt/c/Users/leomv/Desktop/PUC/4º Período/Grafos/implementation/ndnp/Relation.h
+VerticesList.h
+/mnt/c/Users/leomv/Desktop/PUC/4º Período/Grafos/implementation/ndnp/VerticesList.h
+
+/mnt/c/Users/leomv/Desktop/PUC/4º Período/Grafos/implementation/ndnp/Vertex.h
+string
+-
+
+/mnt/c/Users/leomv/Desktop/PUC/4º Período/Grafos/implementation/ndnp/VerticesList.h
+Vertex.h
+/mnt/c/Users/leomv/Desktop/PUC/4º Período/Grafos/implementation/ndnp/Vertex.h
+string
+-
+
+/mnt/c/Users/leomv/Desktop/PUC/4º Período/Grafos/implementation/ndnp/main.cpp
+Graph.h
+/mnt/c/Users/leomv/Desktop/PUC/4º Período/Grafos/implementation/ndnp/Graph.h
+iostream
+-
+
