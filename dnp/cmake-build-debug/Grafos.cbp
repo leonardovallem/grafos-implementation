@@ -82,36 +82,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/mnt/c/Users/leomv/Desktop/PUC/4º Período/Grafos/implementation/dnp/Graph.cpp">
-			<Option target="Grafos"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/leomv/Desktop/PUC/4º Período/Grafos/implementation/dnp/Graph.h">
-			<Option target="Grafos"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/leomv/Desktop/PUC/4º Período/Grafos/implementation/dnp/LabelList.cpp">
-			<Option target="Grafos"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/leomv/Desktop/PUC/4º Período/Grafos/implementation/dnp/LabelList.h">
-			<Option target="Grafos"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/leomv/Desktop/PUC/4º Período/Grafos/implementation/dnp/Relation.cpp">
-			<Option target="Grafos"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/leomv/Desktop/PUC/4º Período/Grafos/implementation/dnp/Relation.h">
-			<Option target="Grafos"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/leomv/Desktop/PUC/4º Período/Grafos/implementation/dnp/Vertex.cpp">
-			<Option target="Grafos"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/leomv/Desktop/PUC/4º Período/Grafos/implementation/dnp/Vertex.h">
-			<Option target="Grafos"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/leomv/Desktop/PUC/4º Período/Grafos/implementation/dnp/VerticesList.cpp">
-			<Option target="Grafos"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/leomv/Desktop/PUC/4º Período/Grafos/implementation/dnp/VerticesList.h">
-			<Option target="Grafos"/>
-		</Unit>
 		<Unit filename="/mnt/c/Users/leomv/Desktop/PUC/4º Período/Grafos/implementation/dnp/main.cpp">
 			<Option target="Grafos"/>
 		</Unit>

@@ -74,12 +74,12 @@ clean: CMakeFiles/Grafos.dir/clean
 CMakeFiles/Grafos.dir/all:
 	$(MAKE) -f CMakeFiles/Grafos.dir/build.make CMakeFiles/Grafos.dir/depend
 	$(MAKE) -f CMakeFiles/Grafos.dir/build.make CMakeFiles/Grafos.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/mnt/c/Users/leomv/Desktop/PUC/4º Período/Grafos/implementation/dnp/cmake-build-debug/CMakeFiles" --progress-num=1,2,3,4,5,6,7 "Built target Grafos"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/mnt/c/Users/leomv/Desktop/PUC/4º Período/Grafos/implementation/dnp/cmake-build-debug/CMakeFiles" --progress-num=1,2 "Built target Grafos"
 .PHONY : CMakeFiles/Grafos.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Grafos.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Users/leomv/Desktop/PUC/4º Período/Grafos/implementation/dnp/cmake-build-debug/CMakeFiles" 7
+	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Users/leomv/Desktop/PUC/4º Período/Grafos/implementation/dnp/cmake-build-debug/CMakeFiles" 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Grafos.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Users/leomv/Desktop/PUC/4º Período/Grafos/implementation/dnp/cmake-build-debug/CMakeFiles" 0
 .PHONY : CMakeFiles/Grafos.dir/rule

@@ -57,61 +57,9 @@ include CMakeFiles/Grafos.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Grafos.dir/flags.make
 
-CMakeFiles/Grafos.dir/Graph.cpp.o: CMakeFiles/Grafos.dir/flags.make
-CMakeFiles/Grafos.dir/Graph.cpp.o: ../Graph.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/leomv/Desktop/PUC/4º Período/Grafos/implementation/dnp/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Grafos.dir/Graph.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Grafos.dir/Graph.cpp.o -c "/mnt/c/Users/leomv/Desktop/PUC/4º Período/Grafos/implementation/dnp/Graph.cpp"
-
-CMakeFiles/Grafos.dir/Graph.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Grafos.dir/Graph.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/leomv/Desktop/PUC/4º Período/Grafos/implementation/dnp/Graph.cpp" > CMakeFiles/Grafos.dir/Graph.cpp.i
-
-CMakeFiles/Grafos.dir/Graph.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Grafos.dir/Graph.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/leomv/Desktop/PUC/4º Período/Grafos/implementation/dnp/Graph.cpp" -o CMakeFiles/Grafos.dir/Graph.cpp.s
-
-CMakeFiles/Grafos.dir/VerticesList.cpp.o: CMakeFiles/Grafos.dir/flags.make
-CMakeFiles/Grafos.dir/VerticesList.cpp.o: ../VerticesList.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/leomv/Desktop/PUC/4º Período/Grafos/implementation/dnp/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Grafos.dir/VerticesList.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Grafos.dir/VerticesList.cpp.o -c "/mnt/c/Users/leomv/Desktop/PUC/4º Período/Grafos/implementation/dnp/VerticesList.cpp"
-
-CMakeFiles/Grafos.dir/VerticesList.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Grafos.dir/VerticesList.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/leomv/Desktop/PUC/4º Período/Grafos/implementation/dnp/VerticesList.cpp" > CMakeFiles/Grafos.dir/VerticesList.cpp.i
-
-CMakeFiles/Grafos.dir/VerticesList.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Grafos.dir/VerticesList.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/leomv/Desktop/PUC/4º Período/Grafos/implementation/dnp/VerticesList.cpp" -o CMakeFiles/Grafos.dir/VerticesList.cpp.s
-
-CMakeFiles/Grafos.dir/Vertex.cpp.o: CMakeFiles/Grafos.dir/flags.make
-CMakeFiles/Grafos.dir/Vertex.cpp.o: ../Vertex.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/leomv/Desktop/PUC/4º Período/Grafos/implementation/dnp/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Grafos.dir/Vertex.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Grafos.dir/Vertex.cpp.o -c "/mnt/c/Users/leomv/Desktop/PUC/4º Período/Grafos/implementation/dnp/Vertex.cpp"
-
-CMakeFiles/Grafos.dir/Vertex.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Grafos.dir/Vertex.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/leomv/Desktop/PUC/4º Período/Grafos/implementation/dnp/Vertex.cpp" > CMakeFiles/Grafos.dir/Vertex.cpp.i
-
-CMakeFiles/Grafos.dir/Vertex.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Grafos.dir/Vertex.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/leomv/Desktop/PUC/4º Período/Grafos/implementation/dnp/Vertex.cpp" -o CMakeFiles/Grafos.dir/Vertex.cpp.s
-
-CMakeFiles/Grafos.dir/Relation.cpp.o: CMakeFiles/Grafos.dir/flags.make
-CMakeFiles/Grafos.dir/Relation.cpp.o: ../Relation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/leomv/Desktop/PUC/4º Período/Grafos/implementation/dnp/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Grafos.dir/Relation.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Grafos.dir/Relation.cpp.o -c "/mnt/c/Users/leomv/Desktop/PUC/4º Período/Grafos/implementation/dnp/Relation.cpp"
-
-CMakeFiles/Grafos.dir/Relation.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Grafos.dir/Relation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/leomv/Desktop/PUC/4º Período/Grafos/implementation/dnp/Relation.cpp" > CMakeFiles/Grafos.dir/Relation.cpp.i
-
-CMakeFiles/Grafos.dir/Relation.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Grafos.dir/Relation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/leomv/Desktop/PUC/4º Período/Grafos/implementation/dnp/Relation.cpp" -o CMakeFiles/Grafos.dir/Relation.cpp.s
-
 CMakeFiles/Grafos.dir/main.cpp.o: CMakeFiles/Grafos.dir/flags.make
 CMakeFiles/Grafos.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/leomv/Desktop/PUC/4º Período/Grafos/implementation/dnp/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Grafos.dir/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/leomv/Desktop/PUC/4º Período/Grafos/implementation/dnp/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Grafos.dir/main.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Grafos.dir/main.cpp.o -c "/mnt/c/Users/leomv/Desktop/PUC/4º Período/Grafos/implementation/dnp/main.cpp"
 
 CMakeFiles/Grafos.dir/main.cpp.i: cmake_force
@@ -122,40 +70,17 @@ CMakeFiles/Grafos.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Grafos.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/leomv/Desktop/PUC/4º Período/Grafos/implementation/dnp/main.cpp" -o CMakeFiles/Grafos.dir/main.cpp.s
 
-CMakeFiles/Grafos.dir/LabelList.cpp.o: CMakeFiles/Grafos.dir/flags.make
-CMakeFiles/Grafos.dir/LabelList.cpp.o: ../LabelList.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/leomv/Desktop/PUC/4º Período/Grafos/implementation/dnp/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Grafos.dir/LabelList.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Grafos.dir/LabelList.cpp.o -c "/mnt/c/Users/leomv/Desktop/PUC/4º Período/Grafos/implementation/dnp/LabelList.cpp"
-
-CMakeFiles/Grafos.dir/LabelList.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Grafos.dir/LabelList.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/leomv/Desktop/PUC/4º Período/Grafos/implementation/dnp/LabelList.cpp" > CMakeFiles/Grafos.dir/LabelList.cpp.i
-
-CMakeFiles/Grafos.dir/LabelList.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Grafos.dir/LabelList.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/leomv/Desktop/PUC/4º Período/Grafos/implementation/dnp/LabelList.cpp" -o CMakeFiles/Grafos.dir/LabelList.cpp.s
-
 # Object files for target Grafos
 Grafos_OBJECTS = \
-"CMakeFiles/Grafos.dir/Graph.cpp.o" \
-"CMakeFiles/Grafos.dir/VerticesList.cpp.o" \
-"CMakeFiles/Grafos.dir/Vertex.cpp.o" \
-"CMakeFiles/Grafos.dir/Relation.cpp.o" \
-"CMakeFiles/Grafos.dir/main.cpp.o" \
-"CMakeFiles/Grafos.dir/LabelList.cpp.o"
+"CMakeFiles/Grafos.dir/main.cpp.o"
 
 # External object files for target Grafos
 Grafos_EXTERNAL_OBJECTS =
 
-Grafos: CMakeFiles/Grafos.dir/Graph.cpp.o
-Grafos: CMakeFiles/Grafos.dir/VerticesList.cpp.o
-Grafos: CMakeFiles/Grafos.dir/Vertex.cpp.o
-Grafos: CMakeFiles/Grafos.dir/Relation.cpp.o
 Grafos: CMakeFiles/Grafos.dir/main.cpp.o
-Grafos: CMakeFiles/Grafos.dir/LabelList.cpp.o
 Grafos: CMakeFiles/Grafos.dir/build.make
 Grafos: CMakeFiles/Grafos.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/mnt/c/Users/leomv/Desktop/PUC/4º Período/Grafos/implementation/dnp/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable Grafos"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/mnt/c/Users/leomv/Desktop/PUC/4º Período/Grafos/implementation/dnp/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Grafos"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Grafos.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -1,4 +1,3 @@
-#include "Graph.h"
 #include <iostream>
 
 class LabelList;
@@ -82,7 +81,7 @@ struct Vertex {
         numberNeighbors = 0;
         relatedLabels = LabelList(numberNeighbors);
     }
-    bool equals(Vertex*) {
+    bool equals(Vertex* vertex) {
         return this->label == vertex->label;
     }
     void addNeighbor() {

@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/Grafos.dir/Graph.cpp.o CMakeFiles/Grafos.dir/VerticesList.cpp.o CMakeFiles/Grafos.dir/Vertex.cpp.o CMakeFiles/Grafos.dir/Relation.cpp.o CMakeFiles/Grafos.dir/main.cpp.o CMakeFiles/Grafos.dir/LabelList.cpp.o  -o Grafos 
+/usr/bin/c++  -g   CMakeFiles/Grafos.dir/main.cpp.o  -o Grafos 
