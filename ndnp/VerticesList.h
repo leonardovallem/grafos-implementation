@@ -1,9 +1,5 @@
-//
-// Created by jmarc on 29/08/2021.
-//
-
-#ifndef GRAFOS_VERTICESLIST_H
-#define GRAFOS_VERTICESLIST_H
+#ifndef UNDIRECTED_SUBLIST
+#define UNDIRECTED_SUBLIST
 
 #include "Vertex.h"
 #include <string>
@@ -40,4 +36,4 @@ struct VerticesList {
     std::string toString();
 };
 
-#endif //GRAFOS_VERTICESLIST_H
+#endif //UNDIRECTED_SUBLIST

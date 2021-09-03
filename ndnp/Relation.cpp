@@ -1,6 +1,6 @@
 #include "Relation.h"
 
-Vertex *Relation::relationedNode() {
+Vertex *Relation::getParentNode() {
     return verticesList->head->next;
 }
 
@@ -9,8 +9,8 @@ Relation::Relation() {
 }
 
 bool Relation::contains(std::string label) {
-    for(Vertex* temp = verticesList->head ; temp->next != nullptr ; temp=temp->next) {
-        if(temp->next->label == label) return true;
+    for (Vertex *temp = verticesList->head; temp->next != nullptr; temp = temp->next) {
+        if (temp->next->label == label) return true;
     }
     return false;
 }

@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/leomv/Desktop/PUC/4º Período/Grafos/implementation/ndp/Matriz.h
+string
+-
+linha.h
+/mnt/c/Users/leomv/Desktop/PUC/4º Período/Grafos/implementation/ndp/linha.h
+
+/mnt/c/Users/leomv/Desktop/PUC/4º Período/Grafos/implementation/ndp/linha.h
+string
+-
+
+/mnt/c/Users/leomv/Desktop/PUC/4º Período/Grafos/implementation/ndp/main.cpp
+iostream
+-
+Matriz.h
+/mnt/c/Users/leomv/Desktop/PUC/4º Período/Grafos/implementation/ndp/Matriz.h
+

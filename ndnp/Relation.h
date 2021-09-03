@@ -1,5 +1,5 @@
-#ifndef GRAFOS_RELATION_H
-#define GRAFOS_RELATION_H
+#ifndef UNDIRECTED_LIST_NODE
+#define UNDIRECTED_LIST_NODE
 
 #include "VerticesList.h"
 
@@ -9,10 +9,8 @@ struct Relation {
 
     Relation();
 
-    Vertex* relationedNode();
+    Vertex* getParentNode();
     bool contains(std::string);
 };
 
-
-
-#endif //GRAFOS_RELATION_H
+#endif //UNDIRECTED_LIST_NODE

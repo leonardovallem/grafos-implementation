@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/leomv/Desktop/PUC/4º Período/Grafos/implementation/dnp/Graph.h
+string
+/mnt/c/Users/leomv/Desktop/PUC/4º Período/Grafos/implementation/dnp/string
+VerticesList.h
+/mnt/c/Users/leomv/Desktop/PUC/4º Período/Grafos/implementation/dnp/VerticesList.h
+Relation.h
+/mnt/c/Users/leomv/Desktop/PUC/4º Período/Grafos/implementation/dnp/Relation.h
+
+/mnt/c/Users/leomv/Desktop/PUC/4º Período/Grafos/implementation/dnp/LabelList.h
+string
+-
+
+/mnt/c/Users/leomv/Desktop/PUC/4º Período/Grafos/implementation/dnp/Relation.h
+VerticesList.h
+/mnt/c/Users/leomv/Desktop/PUC/4º Período/Grafos/implementation/dnp/VerticesList.h
+Vertex.h
+/mnt/c/Users/leomv/Desktop/PUC/4º Período/Grafos/implementation/dnp/Vertex.h
+
+/mnt/c/Users/leomv/Desktop/PUC/4º Período/Grafos/implementation/dnp/Vertex.h
+string
+-
+LabelList.h
+/mnt/c/Users/leomv/Desktop/PUC/4º Período/Grafos/implementation/dnp/LabelList.h
+
+/mnt/c/Users/leomv/Desktop/PUC/4º Período/Grafos/implementation/dnp/VerticesList.h
+string
+-
+Vertex.h
+/mnt/c/Users/leomv/Desktop/PUC/4º Período/Grafos/implementation/dnp/Vertex.h
+
+/mnt/c/Users/leomv/Desktop/PUC/4º Período/Grafos/implementation/dnp/main.cpp
+Graph.h
+/mnt/c/Users/leomv/Desktop/PUC/4º Período/Grafos/implementation/dnp/Graph.h
+iostream
+-
+

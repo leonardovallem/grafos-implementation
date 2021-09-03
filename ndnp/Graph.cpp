@@ -2,6 +2,7 @@
 #include <string>
 
 Graph::Graph() {
+    numberVertices = 0;
     initialize();
 }
 
@@ -16,15 +17,6 @@ void Graph::add(std::string label) {
     end = end->next;
 }
 
-void Graph::remove(int pos) {
-    Relation *temp = head->next;
-    for (int counter = 0; counter < pos + 1 && temp != nullptr; temp = temp->next);
-
-    Relation *deleted = temp->next;
-    temp->next = deleted->next;
-    delete deleted;
-}
-
 std::string Graph::toString() {
     std::string visual = "";
     for (Relation *temp = head->next; temp != nullptr; temp = temp->next) {
@@ -33,27 +25,30 @@ std::string Graph::toString() {
     return visual;
 }
 
+// insert the graph in the structure
 void Graph::addVertex(std::string label) {
     for (Relation *temp = head->next; temp != nullptr; temp = temp->next) {
-        // exist if found already
-        if (temp->relationedNode()->label == label) return;
+        // exit if found already
+        if (temp->getParentNode()->label == label) return;
     }
 
     add(label);
+    numberVertices++;
 }
 
+// adds a relation directed from a vertex to another
 void Graph::addRelation(std::string labelA, std::string labelB) {
     int verticesConnected = 0;
 
     for (Relation *temp = head->next; temp != nullptr; temp = temp->next) {
-        // exist if found already
-        if (temp->relationedNode()->label == labelA) {
+        // exit if found already
+        if (temp->getParentNode()->label == labelA) {
             temp->verticesList->add(labelB);
             verticesConnected++;
             continue;
         }
 
-        if (temp->relationedNode()->label == labelB) {
+        if (temp->getParentNode()->label == labelB) {
             temp->verticesList->add(labelA);
             verticesConnected++;
         }
@@ -62,17 +57,36 @@ void Graph::addRelation(std::string labelA, std::string labelB) {
     }
 }
 
+// removes a relation directed from a vertex to another
+void Graph::removeRelation(std::string from, std::string to) {
+    int sidesOfRelationRemoved = 0;
+    for (Relation *temp = head->next; temp != nullptr; temp = temp->next) {
+        if (temp->getParentNode()->label == from ) {
+            temp->verticesList->remove(to);
+            sidesOfRelationRemoved++;
+        }
+        if (temp->getParentNode()->label == to ) {
+            temp->verticesList->remove(from);
+            sidesOfRelationRemoved++;
+        }
+
+        if(sidesOfRelationRemoved == 2) return;
+    }
+}
+
+// removes a vertex from the graph
 void Graph::deleteVertex(std::string label) {
     LabelList droppedVertices;
 
     for (Relation *temp = head; temp->next != nullptr; temp = temp->next) {
-        if (temp->next->relationedNode()->label == label) {
+        if (temp->next->getParentNode()->label == label) {
             droppedVertices = temp->next->verticesList->relatedLabels();
 
             Relation *deleted = temp->next;
             temp->next = temp->next->next;
+            numberVertices--;
 
-            if (head->next == end) initialize();
+            if (numberVertices == 0) initialize();
             delete deleted;
             break;
         }
@@ -83,11 +97,11 @@ void Graph::deleteVertex(std::string label) {
     for (Relation *temp = head->next; temp != nullptr; temp = temp->next) {
         for (int i = 0; i < droppedVertices.size(); i++) {
 
-            auto noRelacionado = temp->relationedNode()->label;
-            auto noDropado = droppedVertices.get(i);
+            std::string parentNode = temp->getParentNode()->label;
+            std::string droppedNode = droppedVertices.get(i);
 
 
-            if (noRelacionado == noDropado) {
+            if (parentNode == droppedNode) {
                 temp->verticesList->remove(label);
                 droppedVertices.remove(i);
                 break;

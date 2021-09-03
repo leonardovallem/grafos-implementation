@@ -1,6 +1,5 @@
 #include "Vertex.h"
 #include "VerticesList.h"
-#include "iostream"
 
 LabelList::LabelList() {
     this->empty = true;
@@ -19,8 +18,8 @@ void LabelList::add(std::string label) {
 }
 
 void LabelList::remove(int pos) {
-    for(int i=pos ; i < lastLabel ; i++) {
-        labels[i] = labels[i+1];
+    for (int i = pos; i < lastLabel; i++) {
+        labels[i] = labels[i + 1];
     }
     empty = --lastLabel == -1;
 }
@@ -37,7 +36,7 @@ std::string LabelList::pop(int pos) {
 
 std::string LabelList::toString() {
     std::string visual = "";
-    for(int i = 0 ; i <= lastLabel ; i++) {
+    for (int i = 0; i <= lastLabel; i++) {
         visual += labels[i] + " ";
     }
     return visual;
@@ -52,7 +51,6 @@ bool LabelList::isEmpty() {
 }
 
 
-
 VerticesList::VerticesList() {
     head = new Vertex();
     end = head;
@@ -65,22 +63,25 @@ void VerticesList::add(std::string label) {
 
 
 void VerticesList::remove(std::string label) {
-    Vertex* temp = nullptr;
-    for(temp = head->next ; temp->next != nullptr && temp->next->label != label ; temp=temp->next);
+    Vertex *temp = nullptr;
+    for (temp = head->next; temp->next != nullptr && temp->next->label != label; temp = temp->next);
 
-    if(temp == nullptr) return;
+    if (temp == nullptr) return;
+    Vertex *deleted = temp->next;
 
-    Vertex* deleted = temp->next;
+    if (temp->next == nullptr) {
+        temp->next = nullptr;
+        end = temp;
+    } else temp->next = temp->next->next;
 
-    temp->next = temp->next == end ? nullptr : temp->next->next;
     delete deleted;
 }
 
 std::string VerticesList::toString() {
     std::string visual = "";
-    Vertex* temp = head->next;
+    Vertex *temp = head->next;
 
-    for( ; temp->next != nullptr ; temp=temp->next) {
+    for (; temp->next != nullptr; temp = temp->next) {
         visual += temp->label + "->";
     }
     return visual + temp->label;
@@ -88,7 +89,7 @@ std::string VerticesList::toString() {
 
 int VerticesList::size() {
     int _size = 0;
-    for(Vertex* temp = head->next ; temp != nullptr ; temp=temp->next) {
+    for (Vertex *temp = head->next; temp != nullptr; temp = temp->next) {
         _size++;
     }
     return _size;
@@ -96,9 +97,8 @@ int VerticesList::size() {
 
 LabelList VerticesList::relatedLabels() {
     LabelList labels(size() - 1);
-    int counter = 0;
 
-    for(Vertex* temp = head->next->next ; temp != nullptr ; temp=temp->next) {
+    for (Vertex *temp = head->next->next; temp != nullptr; temp = temp->next) {
         labels.add(temp->label);
     }
 

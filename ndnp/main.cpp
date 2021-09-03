@@ -1,15 +1,9 @@
-//
-// Created by jmarc on 29/08/2021.
-//
 #include "Graph.h"
 #include <iostream>
 
 void addVertices(Graph *graph);
-
 void addRelations(Graph *graph);
-
 void deleteVertices(Graph *graph);
-
 void showGraph(Graph *graph);
 
 int main() {
