@@ -3,4 +3,4 @@ project(Grafos)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Grafos Graph.cpp Graph.h VerticesList.cpp VerticesList.h Vertex.cpp Vertex.h Relation.cpp Relation.h main.cpp LabelList.cpp LabelList.h)
+add_executable(Grafos main.cpp)
